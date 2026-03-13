@@ -1,0 +1,7 @@
+@import url(styles/colors.css);
+
+body {
+  color: var(--clr-text-1);
+  min-height: 1vh;
+  background: var(--main-background);
+}
