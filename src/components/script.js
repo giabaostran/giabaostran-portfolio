@@ -1,64 +1,94 @@
+export const bio = {
+  firstName: "Gia Bao",
+  lastName: " Tran",
+  email: "giabaotran@cmail.carleton.ca",
+  hook: "CS @ Carleton · builder of things.",
+  gitHub: "https://github.com/giabaostran",
+  linkedIn: "https://www.linkedin.com/in/giabaostran/",
+  school:"Carleton University"
+};
+
+export const experiences = [
+  {
+    role: "DevSecOps Engineer (Co-op)",
+    company: "Deloitte",
+    date: "January 24 - April 24",
+    desc: "Provisioned AWS infrastructure for EDAP project used by over 20 Data Scientists across firms like Canada Post, Purolator, ...",
+    tags: ["Terraform", "AWS", "Teradata", "Python", "Teradata SQL"],
+  },
+  {
+    role: "Software Developer (Co-op)",
+    company: "Deloitte",
+    date: "September 23 - December 23",
+    desc: "Streamlined RBAC Request process to save up to 2 weeks per request, helping team handle tickets more efficiently. Application used by WiPro and Innovapost employees",
+    tags: [
+      "PowerApps",
+      "PowerAutomate",
+      "Microsoft Power Automate",
+      "Microsoft PowerApps",
+      "Microsoft Sharepoint",
+      "Java",
+    ],
+  },
+  {
+    role: "Site Reliability Engineer (Co-op)",
+    company: "Innovapost",
+    date: "January 23 - April 23",
+    desc: "Developed multiple automation solution for IT Operation teams, helping their management process easier by implementing document attachment functionality to Canada Post's sites",
+    tags: ["Python", "C#", ".NET CORE", "WinForm", "SQL"],
+  },
+  {
+    role: "IT Specialist (Part-time)",
+    company: "Flextra Electronics",
+    date: "October 22 - April 23",
+    desc: "Performed responsiblies of technical support by installing computer hardware, softwares, network infrastructures and website SEO, increasing company presense online ",
+    tags: ["Customer Service", "IT Support Principles"],
+  },
+  {
+    role: "Front-end Developer (Volunteer)",
+    company: "VNPT Group",
+    date: "May 22 - June 22",
+    desc: "Contributed to HIS (Medical App) by designing and developed multiple front-end interface",
+    tags: ["HTML", "CSS", "SCSS", "Javascript"],
+  },
+];
+
 export const projects = [
   {
-    name: "NeuralSearch",
-    desc: "Semantic search engine using vector embeddings and HNSW indexing. Handles 1M+ docs with sub-50ms query times.",
-    tags: ["Python", "FastAPI", "PyTorch", "Redis"],
+    name: "Nimbus Wallet (in-progress)",
+    desc: "A finance management application using the MERN stack for expense tracking, budgeting, and financial insights. Implementing a CI/CD pipeline with Docker and Jenkins for deployment on Raspberry Pi.",
+    tags: ["Next.js", "Docker", "Jenkins", "Raspberry Pi", "SSH"],
+    date: "2025",
+    github: "https://github.com/giabaostran/",
+  },
+  {
+    name: "Cyber-Tetris (in-progress)",
+    desc: "A Tetris clone in Java Swing featuring core gameplay mechanics, real-time scoring, and increasing difficulty. Includes a client-server system for local wireless multiplayer.",
+    tags: ["Java"],
+    date: "2025",
+    github: "https://github.com/giabaostran/Cyber-Tetris/",
+  },
+  {
+    name: "Nascita - Coffee Shop Management System",
+    desc: "A Go-based microservice architecture with gRPC for bi-directional streaming and Gorilla Mux for routing, improving scalability by ~40%.",
+    tags: ["Go", "gRPC"],
     date: "2024",
-    demo: "#",
-    screenshotURL:"https://media.licdn.com/dms/image/v2/D4E16AQEmMj-DL4B4Mg/profile-displaybackgroundimage-shrink_350_1400/B4EZ0JelC8I4AY-/0/1773980504690?e=1778716800&v=beta&t=f97-tul-WxrTb-ZgnsqlEPCmmhsEEB1BcjPDMTMskOY",
-    github: "#",
+    github: "https://github.com/giabaostran/Nascita-Coffee-Shop-Management-System/",
   },
   {
-    name: "Kestrel",
-    desc: "Distributed key-value store in Go implementing Raft consensus — leader election, log replication, and snapshotting.",
-    tags: ["Go", "Raft", "gRPC"],
+    name: "Zein - AI Generative SaaS",
+    desc: "A web-based AI assistant built with Next.js and Node.js, integrating OpenAI and Replicate APIs for generative AI features.",
+    tags: ["Next.js", "Prisma", "TypeScript", "Zod", "Clerk", "React Hook Form", "Stripe", "OpenAI"],
     date: "2024",
-    github: "#",
+    github: "https://github.com/giabaostran/Zein-AI-Generative-SaaS/",
   },
-
   {
-    name: "TinyCompiler",
-    desc: "Compiler for a subset of C targeting x86-64. Implements lexing, parsing, semantic analysis, and register allocation.",
-    tags: ["C++", "LLVM IR", "x86"],
+    name: "TicTacToe",
+    desc: "A classic web-based Tic Tac Toe game playable in the browser.",
+    tags: ["HTML", "CSS", "JavaScript", "Tailwind", "React"],
     date: "2023",
-    screenshotURL:"https://media.licdn.com/dms/image/v2/D4E16AQEmMj-DL4B4Mg/profile-displaybackgroundimage-shrink_350_1400/B4EZ0JelC8I4AY-/0/1773980504690?e=1778716800&v=beta&t=f97-tul-WxrTb-ZgnsqlEPCmmhsEEB1BcjPDMTMskOY",
-    github: "#",
-  },
-  {
-    name: "Flowtrack",
-    desc: "Real-time habit tracker with Pomodoro integration. Live multi-device sync via WebSockets.",
-    tags: ["React", "Node.js", "WebSocket"],
-    date: "2023",
-    demo: "#",
-    github: "#",
-  },
-  {
-    name: "PixelVM",
-    desc: "Bytecode virtual machine for a toy language. Stack-based with a custom garbage collector, written in Rust.",
-    tags: ["Rust", "Bytecode", "GC"],
-    date: "2022",
-    github: "#",
-  },
-  {
-    name: "Scratchpad",
-    desc: "Collaborative whiteboard with CRDT-based real-time sync.",
-    tags: ["TypeScript", "CRDT", "WebRTC"],
-    date: "2022",
-    github: "#",
-  },
-  {
-    name: "LogLens",
-    desc: "Terminal log viewer with regex search and live tail.",
-    tags: ["Go", "TUI"],
-    date: "2021",
-    github: "#",
-  },
-  {
-    name: "BudgetCLI",
-    desc: "Personal finance tracker that lives entirely in the terminal.",
-    tags: ["Python", "SQLite"],
-    date: "2021",
-    github: "#",
+    demo: "https://ticktackto.netlify.app/",
+    github: "https://ticktackto.netlify.app/",
   },
 ];
 
@@ -94,7 +124,7 @@ export const projects = [
 //               onclick="openLightbox('${hasImg ? screenshots[i] : ""}')"
 //               alt="${p.name}" />
 //           </div>
-          
+
 //           <div class="project-body">
 //             <div class="project-top">
 //               <span class="project-name">${p.name}</span>

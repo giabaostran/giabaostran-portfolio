@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Projects from "./Projects";
+import Experiences from "./Experiences";
+import Footer from "./Footer";
 
 export default function Main() {
   return (
@@ -9,6 +11,8 @@ export default function Main() {
       <Navbar />
       <Hero />
       <Projects />
+      <Experiences />
+      <Footer />
     </div>
   );
 }

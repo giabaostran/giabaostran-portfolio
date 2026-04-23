@@ -1,5 +1,5 @@
 import React from "react";
-
+import { bio } from "./script";
 export default function Hero() {
   return (
     <div id="hero">
@@ -8,24 +8,24 @@ export default function Hero() {
         Open to internships &amp; full-time — Summer 2026
       </div>
       <h1>
-        Gia Bao
+        {bio.firstName}
         <br />
-        <span className="line2">Tran.</span>
-        <span className="dim">CS @ Carleton · builder of things.</span>
+        <span className="line2">{bio.lastName}.</span>
+        <span className="dim">{bio.hook}</span>
       </h1>
       <p className="hero-bio">
         4th Computer Science student at <strong>Carleton University</strong>,
-        focused on DevOps, SWE, and WebDev
-        people actually use. I like hard problems and clean code.
+        focused on DevOps, SWE, and WebDev people actually use. I like hard
+        problems and clean code.
       </p>
       <div className="hero-links">
         <a href="#projects" className="primary">
           View work
         </a>
-        <a href="https://github.com/giabaostran">GitHub ↗</a>
-        <a href="https://www.linkedin.com/in/giabaostran/">LinkedIn ↗</a>
-        <a href="mailto:giabaotran@cmail.carleton.ca">Email ↗</a>
-        <a href="#">Resume ↗</a>
+        <a href={bio.gitHub}>GitHub ↗</a>
+        <a href={bio.linkedIn}>LinkedIn ↗</a>
+        <a href={`mailto:${bio.email}`}>Email ↗</a>
+        <a href="resume">Resume ↗</a>
       </div>
     </div>
   );
