@@ -13,26 +13,7 @@ function About() {
                 </h2>
             </div>
             <div>
-                <p className="mb-4">
-                    I'm Gia Bao (Stephen) Tran, a {' '}
-                    {/* <a
-                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                    > */}
-                    Cognitive Science. May it sound irrelavant, I came from a background in tech which has a equipped a strong passion for coding and love spending time learning cool technologies and developing software projects that make life easier.
-                </p>
-                <p className="mb-4">
-                    Having worked in various roles, I’ve come to realize how software can transform organizational planning, streamline operations, and save resources, time, and effort. This experience sparked my interest in DevOps, where I aim to create automated solutions that address... boring tasks.
-                </p>
-
-                <p className="mb-4">
-                    Also, I am trying to set foot in the Embedded Engineering field, do you think this role will be replaced by AI though?
-                </p>
-
-                <p>
-
-                </p>
+             
             </div>
         </section >
     );
