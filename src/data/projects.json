@@ -1,0 +1,17 @@
+[
+  {
+    "name": "NeuralSearch",
+    "desc": "Semantic search engine using vector embeddings and HNSW indexing.",
+    "tags": ["Python", "FastAPI", "PyTorch", "Redis"],
+    "year": "2024",
+    "demo": "#",
+    "github": "#"
+  },
+  {
+    "name": "Kestrel",
+    "desc": "Distributed key-value store implementing Raft.",
+    "tags": ["Go", "Raft", "gRPC"],
+    "year": "2024",
+    "github": "#"
+  }
+]
