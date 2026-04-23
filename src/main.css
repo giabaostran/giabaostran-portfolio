@@ -167,6 +167,7 @@ nav {
 
 /* HERO */
 #hero {
+  padding: 2.4rem 0px 0px;
   margin-bottom: 8rem;
   opacity: 0;
   animation: up 0.55s 0.15s forwards;

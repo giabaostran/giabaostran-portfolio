@@ -8,7 +8,7 @@ import Footer from "./Footer";
 export default function Main() {
   return (
     <div id="main-page">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Projects />
       <Experiences />
