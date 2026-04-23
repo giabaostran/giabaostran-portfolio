@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="nav-left">
-        <div className="nav-avatar-wrap" >
+        <div className="nav-avatar-wrap">
           <div className="nav-avatar-bg" id="avatar-bg">
             <svg
               viewBox="0 0 24 30"
