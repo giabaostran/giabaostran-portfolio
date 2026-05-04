@@ -1,5 +1,6 @@
 import React from "react";
 import { bio } from "./script";
+import Avatar from "../data/avatar.jpg";
 export default function Hero() {
   return (
     <div id="hero">
@@ -7,6 +8,9 @@ export default function Hero() {
         <div className="status-dot"></div>
         Open to internships &amp; full-time — Summer 2026
       </div>
+
+      <img id="nav-avatar-img"src={Avatar} alt="" />
+
       <h1>
         {bio.firstName}
         <br />
@@ -14,9 +18,8 @@ export default function Hero() {
         <span className="dim">{bio.hook}</span>
       </h1>
       <p className="hero-bio">
-        4th Computer Science student at <strong>Carleton University</strong>,
-        focused on DevOps, SWE, and WebDev people actually use. I like hard
-        problems and clean code.
+        4th Computer Science student at <strong>Carleton University</strong>, focused on DevOps, SWE, and WebDev people
+        actually use. I like hard problems and clean code.
       </p>
       <div className="hero-links">
         <a href="#projects" className="primary">

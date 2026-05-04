@@ -106,7 +106,7 @@ nav {
   opacity: 0.18;
   margin-top: 6px;
 }
-#nav-avatar-img {
+/* #nav-avatar-img {
   width: 52px;
   height: 52px;
   border-radius: 50%;
@@ -115,6 +115,19 @@ nav {
   position: absolute;
   inset: 0;
   z-index: 1;
+} */
+#nav-avatar-img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+
+  /* display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 1; */
 }
 .avatar-hint {
   font-size: 0.58rem;
@@ -149,7 +162,7 @@ nav {
 
 .nav-links {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   gap: 2rem;
   list-style: none;
 }
