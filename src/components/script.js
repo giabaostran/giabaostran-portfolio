@@ -5,7 +5,7 @@ export const bio = {
   hook: "CS @ Carleton · builder of things.",
   gitHub: "https://github.com/giabaostran",
   linkedIn: "https://www.linkedin.com/in/giabaostran/",
-  school:"Carleton University"
+  school: "Carleton University",
 };
 
 export const experiences = [
@@ -14,7 +14,7 @@ export const experiences = [
     company: "Deloitte",
     date: "January 24 - April 24",
     desc: "Provisioned AWS infrastructure for EDAP project used by over 20 Data Scientists across firms like Canada Post, Purolator, ...",
-    tags: ["Terraform", "AWS", "Teradata", "Python", "Teradata SQL"],
+    tags: ["Terraform", "AWS", "SAS SQL", "Python", "Teradata SQL"],
   },
   {
     role: "Software Developer (Co-op)",
@@ -28,6 +28,7 @@ export const experiences = [
       "Microsoft PowerApps",
       "Microsoft Sharepoint",
       "Java",
+      "Selenium",
     ],
   },
   {
@@ -55,40 +56,45 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Nimbus Wallet (in-progress)",
+    name: "Plutus (in-progress)",
     desc: "A finance management application using the MERN stack for expense tracking, budgeting, and financial insights. Implementing a CI/CD pipeline with Docker and Jenkins for deployment on Raspberry Pi.",
-    tags: ["Next.js", "Docker", "Jenkins", "Raspberry Pi", "SSH"],
-    date: "2025",
-    github: "https://github.com/giabaostran/",
+    tags: ["React.js", "MongoDb", "Node.js", "Express.js", "Docker", "Jenkins", "Raspberry Pi", "SSH"],
+    // date: "2025",
+    screenshotURL: "plustusScreenshot.png",
+    github: "https://github.com/giabaostran/Plutus---Finance-Application",
   },
   {
-    name: "Cyber-Tetris (in-progress)",
-    desc: "A Tetris clone in Java Swing featuring core gameplay mechanics, real-time scoring, and increasing difficulty. Includes a client-server system for local wireless multiplayer.",
+    name: "Cyber-Tetris ",
+    desc: "A Tetris clone in Java Swing featuring core gameplay mechanics, real-time scoring, and increasing difficulty.",
     tags: ["Java"],
-    date: "2025",
+    // date: "2025",
+    screenshotURL: "cyberTetris.png",
+
     github: "https://github.com/giabaostran/Cyber-Tetris/",
   },
   {
     name: "Nascita - Coffee Shop Management System",
     desc: "A Go-based microservice architecture with gRPC for bi-directional streaming and Gorilla Mux for routing, improving scalability by ~40%.",
     tags: ["Go", "gRPC"],
-    date: "2024",
+    screenshotURL: "nascitaScreenshot.png",
     github: "https://github.com/giabaostran/Nascita-Coffee-Shop-Management-System/",
   },
   {
     name: "Zein - AI Generative SaaS",
     desc: "A web-based AI assistant built with Next.js and Node.js, integrating OpenAI and Replicate APIs for generative AI features.",
     tags: ["Next.js", "Prisma", "TypeScript", "Zod", "Clerk", "React Hook Form", "Stripe", "OpenAI"],
-    date: "2024",
+    screenshotURL: "zeinScreenshot.png",
+    //
     github: "https://github.com/giabaostran/Zein-AI-Generative-SaaS/",
   },
   {
     name: "TicTacToe",
     desc: "A classic web-based Tic Tac Toe game playable in the browser.",
     tags: ["HTML", "CSS", "JavaScript", "Tailwind", "React"],
-    date: "2023",
+    // date: "2023",
+    screenshotURL: "tictactoeScreenshot.png",
     demo: "https://ticktackto.netlify.app/",
-    github: "https://ticktackto.netlify.app/",
+    github: "https://github.com/giabaostran/TicTacToe",
   },
 ];
 

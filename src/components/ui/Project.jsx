@@ -13,18 +13,15 @@ export default function Project({ project }) {
           )}
 
           {hasImg && (
-            <img id={`thumb-${project.name}`}
-              className="thumb-img"
-              src={project.screenshotURL}
-              alt={project.name}
-            />
+            <img id={`thumb-${project.name}`} className="thumb-img" src={project.screenshotURL} alt={project.name} />
           )}
         </div>
 
         <div className="project-body">
           <div className="project-top">
             <span className="project-name">
-              {project.name} - ({project.date})
+              {project.name}
+              {/* - ({project.date}) */}
             </span>
 
             <span className="project-links-inline">
@@ -59,28 +56,9 @@ export default function Project({ project }) {
 
 function ThumbIcon() {
   return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect
-        x="1"
-        y="4"
-        width="18"
-        height="13"
-        rx="1.5"
-        stroke="#39ff8a"
-        strokeWidth="1.2"
-      />
-      <path
-        d="M1 13l4-4 3 3 4-5 7 7"
-        stroke="#39ff8a"
-        strokeWidth="1.2"
-        strokeLinejoin="round"
-      />
+    <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="4" width="18" height="13" rx="1.5" stroke="#39ff8a" strokeWidth="1.2" />
+      <path d="M1 13l4-4 3 3 4-5 7 7" stroke="#39ff8a" strokeWidth="1.2" strokeLinejoin="round" />
       <circle cx="5.5" cy="8.5" r="1.5" fill="#39ff8a" />
     </svg>
   );
